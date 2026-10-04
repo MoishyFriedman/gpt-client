@@ -1,0 +1,9 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--color-bg-container);
+}

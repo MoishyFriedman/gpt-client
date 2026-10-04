@@ -1,0 +1,10 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.radioGroup {
+  display: block;
+  margin-top: 8px;
+}

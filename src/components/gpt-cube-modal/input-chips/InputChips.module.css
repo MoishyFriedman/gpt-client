@@ -1,0 +1,8 @@
+.box {
+  margin-top: 8px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  height: 152px;
+  overflow-y: auto;
+}

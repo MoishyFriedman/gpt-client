@@ -1,0 +1,31 @@
+.row,
+.rowWithChips {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.rowWithChips {
+  margin-bottom: 8px;
+}
+
+.chip {
+  background: var(--color-fill-tertiary) !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 0 8px !important;
+}
+
+.addButtonWrap {
+  position: relative;
+}
+
+.addButton {
+  height: 24px !important;
+  padding: 4px !important;
+  border-radius: 4px !important;
+  border: 1px solid var(--color-border) !important;
+  background: var(--color-bg-container) !important;
+}

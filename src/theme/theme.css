@@ -1,0 +1,29 @@
+/* Design tokens as CSS custom properties, mirroring src/theme/tokens.ts.
+   Keep values in sync with tokens.ts (that file feeds AntD's own token
+   system in JS; these vars feed our own component CSS files). */
+
+:root {
+  --color-bg-container: #ffffff;
+  --color-bg-layout: #f8fafd;
+  --color-border: #d9d9d9;
+  --color-border-secondary: #f0f0f0;
+  --color-text: rgba(0, 0, 0, 0.88);
+  --color-text-tertiary: rgba(0, 0, 0, 0.25);
+  --color-fill-tertiary: rgba(0, 0, 0, 0.04);
+  --segment-track-bg: #f8f8f8;
+  --shadow-tertiary:
+    0px 1px 2px 0px rgba(0, 0, 0, 0.03),
+    0px 1px 6px -1px rgba(0, 0, 0, 0.02),
+    0px 2px 4px 0px rgba(0, 0, 0, 0.02);
+}
+
+:root[data-theme='dark'] {
+  --color-bg-container: #1f1f1f;
+  --color-bg-layout: #141414;
+  --color-border: #434343;
+  --color-border-secondary: #262626;
+  --color-text: rgba(255, 255, 255, 0.88);
+  --color-text-tertiary: rgba(255, 255, 255, 0.25);
+  --color-fill-tertiary: rgba(255, 255, 255, 0.04);
+  --segment-track-bg: #141414;
+}

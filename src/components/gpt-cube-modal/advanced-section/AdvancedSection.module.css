@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.textareaRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.stepper {
+  width: 150px;
+}
+
+.textarea {
+  flex: 1;
+}
+
+.label {
+  flex-shrink: 0;
+  width: 160px;
+}

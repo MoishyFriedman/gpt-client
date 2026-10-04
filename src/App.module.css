@@ -1,0 +1,7 @@
+.shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: stretch;
+  padding: 24px;
+  background: var(--color-bg-layout);
+}
